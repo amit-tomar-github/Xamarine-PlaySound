@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<Button
+		android:text="Play Notification Sound"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/btnNoti" />
+	<Button
+        android:id="@+id/btnAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnNoti"
+        android:text="Play Alarm Sound" />
+	<Button
+        android:id="@+id/btnMp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAlarm"
+        android:text="Play Mp3 Sound" />
+
+	<Button
+        android:id="@+id/btnMp32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMp3"
+        android:text="Play Mp3 Sound 2" />
+</RelativeLayout>
